@@ -260,45 +260,7 @@ function CreateListingForm() {
           {successMessage}
         </div>
       )}
-      {/* 
-      <div className="flex flex-col justify-center items-center mb-4 w-full">
-        <label htmlFor="image" className="block text-emerald-700 text-sm font-bold mb-2 w-full">
-          <label htmlFor="image-upload" className="block text-emerald-700 text-sm font-bold mb-2 w-full">
-            <div className="flex flex-col items-center justify-center border-2 border-dashed border-gray-300 rounded-lg p-6 cursor-pointer hover:border-emerald-500 transition-colors">
-              <svg className="mx-auto h-12 w-12 text-gray-400" stroke="currentColor" fill="none" viewBox="0 0 48 48" aria-hidden="true">
-                <path d="M28 8H12a4 4 0 00-4 4v20m32-12v8m0 0v8a4 4 0 01-4 4H8m36-12h-4m4 0H20" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-              </svg>
-              <span className="mt-2 block text-sm font-medium text-gray-900">
-                Drag files to upload or click here
-              </span>
-              <input
-                id="image-upload"
-                type="file"
-                name="image"
-                onChange={handleFileChange}
-                multiple
-                className="hidden" // Hide the actual input
-              />
-            </div>
-          </label>
-        </label>
-
-{/* 
-<div className="mt-4 flex flex-wrap justify-start items-center w-full">
-  {formData.imageUrl.map((image, index) => (
-    <div key={index} className="flex flex-col items-center mr-4 mb-4">
-      <img src={URL.createObjectURL(image)} alt={`Uploaded #${index + 1}`} className="w-16 h-16 object-cover rounded-md" />
-      <button onClick={(e) => removeImage(e, index)} className="mt-2 text-red-500">
-        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12"></path>
-        </svg>
-      </button>
-    </div>
-  ))}
-</div>
-*/}
-
-
+  
 
       {/* Title */}
       <div className="mb-4">
